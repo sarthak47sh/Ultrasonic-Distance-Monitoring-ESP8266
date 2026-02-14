@@ -266,6 +266,6 @@ with <code>millis()</code>, ensuring responsive system behavior.
 
 <p>
 <b>Sarthak Sharma</b><br>
-Electronics and Telecommunication Engineering<br>
+Electronics and Communication Engineering<br>
 IIIT Bhopal
 </p>
