@@ -10,16 +10,15 @@
 <h2>Overview</h2>
 
 <p>
-This project implements an ultrasonic distance monitoring system using a 
-<b>NodeMCU ESP8266</b> and an <b>HC-SR04 ultrasonic sensor</b>. 
+This project implements an Ultrasonic Distance Monitoring System using a 
+<b>NodeMCU ESP8266</b> and an <b>HC-SR04 UltraSonic Sensor</b>. 
 The system measures distance in real time, provides LED-based proximity indication, 
 and logs data to the cloud using ThingSpeak.
 </p>
 
 <p>
 The project was developed incrementally, evolving from basic distance measurement 
-into a modular, IoT-enabled embedded system with improved firmware architecture 
-and system responsiveness.
+into a modular, IoT-enabled embedded system with improved firmware architecture.
 </p>
 
 <hr>
@@ -27,12 +26,12 @@ and system responsiveness.
 <h2>Key Features</h2>
 
 <ul>
-<li>Real-time distance measurement using ultrasonic time-of-flight</li>
+<li>Real-time distance measurement using Ultrasonic Time-of-Flight</li>
 <li>LED-based proximity indication (Green, Yellow, Red)</li>
 <li>Cloud data logging using ThingSpeak IoT platform</li>
-<li>Modular and maintainable firmware architecture</li>
+<li>Modular and aMintainable Firmware Architecture</li>
 <li>Non-blocking timing using <code>millis()</code></li>
-<li>Safe hardware interfacing using voltage protection</li>
+<li>Safe hardware Interfacing using Voltage Protection</li>
 </ul>
 
 <hr>
@@ -55,9 +54,9 @@ and IoT integration suitable for real-world embedded applications.
 <li>Red LED</li>
 <li>Yellow LED</li>
 <li>Green LED</li>
-<li>Current limiting resistors</li>
+<li>Current limiting Resistors</li>
 <li>Breadboard</li>
-<li>Jumper wires</li>
+<li>Jumper Wires</li>
 </ul>
 
 <hr>
@@ -65,7 +64,7 @@ and IoT integration suitable for real-world embedded applications.
 <h2>Working Principle</h2>
 
 <p>
-The HC-SR04 ultrasonic sensor measures distance using the time-of-flight method:
+The HC-SR04 ultrasonic sensor measures distance using the Time-of-Flight method:
 </p>
 
 <ol>
@@ -112,7 +111,7 @@ Distance = (Time × Speed of Sound) / 2
 <pre>
 Ultrasonic Sensor
       ↓
-ESP8266
+NodeMCU ESP8266
       ↓
 Distance Calculation
       ↓
@@ -126,9 +125,9 @@ ThingSpeak Cloud
 <h3>System Description</h3>
 
 <ul>
-<li>ESP8266 measures echo timing</li>
-<li>Distance is calculated using time-of-flight</li>
-<li>Firmware compares distance with thresholds</li>
+<li>ESP8266 measures Echo Timing</li>
+<li>Distance is calculated using Time-of-Flight</li>
+<li>Firmware compares distance with Thresholds</li>
 <li>LEDs indicate proximity locally</li>
 <li>Data is uploaded to ThingSpeak cloud</li>
 </ul>
@@ -241,7 +240,7 @@ with <code>millis()</code>, ensuring responsive system behavior.
 
 <ul>
 <li>Embedded C/C++ programming</li>
-<li>Sensor interfacing</li>
+<li>Sensor Interfacing</li>
 <li>GPIO control</li>
 <li>Firmware architecture design</li>
 <li>Non-blocking embedded timing</li>
@@ -255,8 +254,8 @@ with <code>millis()</code>, ensuring responsive system behavior.
 
 <ul>
 <li>Web dashboard</li>
-<li>Sensor data filtering</li>
-<li>Battery operation</li>
+<li>Sensor data Filtering</li>
+<li>Battery Operation</li>
 <li>Multi-sensor support</li>
 </ul>
 
